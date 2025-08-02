@@ -1,3 +1,5 @@
+import person1 from "./../assets/img/person1.png";
+
 const dropdown = () => {
   const dropdownLists = document.querySelectorAll(".dropdown");
 
@@ -56,7 +58,7 @@ const modal = () => {
 
     button.addEventListener("click", () => {
       modal.classList.add("active");
-      img.src = button.dataset.img;
+      img.src = person1;
       name.textContent = button.dataset.name;
     });
   });

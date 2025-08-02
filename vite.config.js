@@ -9,8 +9,10 @@ export default defineConfig({
   build: {
     emptyOutDir: true,
     outDir: "../dist",
+    assetsDir: "assets",
     rollupOptions: {
       input: resolve(__dirname, "src/index.html"),
+      assetFileNames: "assets/img/[name].[hash][extname]",
     },
   },
 });
