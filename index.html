@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles/main.scss" />
+    <script src="src/js/index.js" defer></script>
+    <title>Spatium</title>
+  </head>
+  <body>
+    <div class="modal">
+      <div class="content">
+        <button class="modal__close">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-x-icon lucide-x"
+          >
+            <path d="M18 6 6 18" />
+            <path d="m6 6 12 12" />
+          </svg>
+        </button>
+        <div class="modal__img">
+          <img src="src/assets/img/person1.png" alt="" />
+        </div>
+        <div class="modal__name">adsasd</div>
+      </div>
+    </div>
+    <button class="up-button">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="lucide lucide-arrow-up-icon lucide-arrow-up"
+      >
+        <path d="m5 12 7-7 7 7" />
+        <path d="M12 19V5" />
+      </svg>
+    </button>
+    <header>
+      <div class="container">
+        <div class="header__wrapper">
+          <div class="header__wrapper-logo">
+            <img src="src/assets/icons/logo.svg" alt="" />
+          </div>
+          <div class="header__wrapper-menu">
+            <a href="" class="header__wrapper-menu__a desktop">Home</a>
+            <div class="header__wrapper-menu__a dropdown desktop">
+              <div class="dropdown-button">
+                <div>About Us</div>
+                <div class="arrow">
+                  <img src="src/assets/icons/arrow.svg" alt="" />
+                </div>
+              </div>
+              <div class="dropdown-list">
+                <a href="">Большой текст</a>
+                <a href="">Текст</a>
+                <a href="">Текст</a>
+              </div>
+            </div>
+            <a href="" class="header__wrapper-menu__a desktop">Portfolio</a>
+            <a href="" class="header__wrapper-menu__a desktop"
+              >Management Profile</a
+            >
+            <a href="" class="header__wrapper-menu__a desktop">Careers</a>
+          </div>
+          <a href="" class="header__wrapper-button desktop">Contact Us</a>
+          <div class="header__wrapper-mobile">
+            <div class="header__wrapper-mobile__content">
+              <div class="header__wrapper-mobile__head">
+                <div class="header__wrapper-mobile__p">Меню</div>
+                <button class="header__wrapper-mobile__close">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="lucide lucide-x-icon lucide-x"
+                  >
+                    <path d="M18 6 6 18" />
+                    <path d="m6 6 12 12" />
+                  </svg>
+                </button>
+              </div>
+              <div class="header__wrapper-mobile__menu">
+                <a href="" class="header__wrapper-menu__a">Home</a>
+                <div class="header__wrapper-menu__a dropdown">
+                  <div class="dropdown-button">
+                    <div>About Us</div>
+                    <div class="arrow">
+                      <img src="src/assets/icons/arrow.svg" alt="" />
+                    </div>
+                  </div>
+                  <div class="dropdown-list">
+                    <a href="">Большой текст</a>
+                    <a href="">Текст</a>
+                    <a href="">Текст</a>
+                  </div>
+                </div>
+                <a href="" class="header__wrapper-menu__a">Portfolio</a>
+                <a href="" class="header__wrapper-menu__a"
+                  >Management Profile</a
+                >
+                <a href="" class="header__wrapper-menu__a">Careers</a>
+              </div>
+            </div>
+          </div>
+          <div class="header__wrapper-burger">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-align-justify-icon lucide-align-justify"
+            >
+              <path d="M3 12h18" />
+              <path d="M3 18h18" />
+              <path d="M3 6h18" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="banner">
+        <div class="banner__background">
+          <div class="banner__background-gradient"></div>
+          <img
+            src="src/assets/img/banner.png"
+            class="banner__background-img"
+            alt=""
+          />
+        </div>
+        <div class="container">
+          <div class="banner__wrapper">
+            <div class="banner__wrapper-title">
+              <h1>Find The Perfect Digital Solution for your Business</h1>
+              <p>Grow your business with our state of the art technology</p>
+            </div>
+            <a href="" class="banner__wrapper-button">Learn more</a>
+          </div>
+        </div>
+        <div class="banner__background-bottom"></div>
+      </section>
+      <section class="our">
+        <div class="container">
+          <div class="our__wrapper">
+            <div class="our__wrapper-main">
+              <div class="our__wrapper-main__subtitle">
+                <div class="circle"></div>
+                <p>WHO WE DO</p>
+              </div>
+              <h2 class="our__wrapper-main__title">
+                We Create Innovative Solutions for Industries
+              </h2>
+              <div class="our__wrapper-main__text">
+                Here at Spatium Innovation Hub we know the importance of
+                technology as a source of innovation and as a critical success
+                factor for increased market competitiveness
+              </div>
+              <div class="our__wrapper-main__footer-text">
+                We provide professional and exemptional database management,
+                process automation and enterprise applications. We offer a vast
+                range of IT services and digital solutions such as
+                web/multimedia design and mobile and web application
+                development.
+              </div>
+            </div>
+            <div class="our__wrapper-cards">
+              <div class="our__wrapper-cards__wrapper">
+                <div class="our__wrapper-cards__item">
+                  <div class="our__wrapper-cards__item-title">
+                    Identity Management & Verification
+                  </div>
+                  <div class="our__wrapper-cards__item-text">
+                    Our Identity Management solution is the authentication
+                    process of determining whether a person is who he or she
+                    claims to be.
+                  </div>
+                </div>
+                <div class="our__wrapper-cards__item">
+                  <div class="our__wrapper-cards__item-title">
+                    Identity Management & Verification
+                  </div>
+                  <div class="our__wrapper-cards__item-text">
+                    Our Identity Management solution is the authentication
+                    process of determining whether a person is who he or she
+                    claims to be.
+                  </div>
+                </div>
+              </div>
+              <div class="our__wrapper-cards__wrapper">
+                <div class="our__wrapper-cards__item">
+                  <div class="our__wrapper-cards__item-title">
+                    Identity Management & Verification
+                  </div>
+                  <div class="our__wrapper-cards__item-text">
+                    Our Identity Management solution is the authentication
+                    process of determining whether a person is who he or she
+                    claims to be.
+                  </div>
+                </div>
+                <div class="our__wrapper-cards__item">
+                  <div class="our__wrapper-cards__item-title">
+                    Identity Management & Verification
+                  </div>
+                  <div class="our__wrapper-cards__item-text">
+                    Our Identity Management solution is the authentication
+                    process of determining whether a person is who he or she
+                    claims to be.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="team">
+        <div class="container">
+          <div class="team__wrapper">
+            <div class="team__wrapper-title">
+              <div class="team__wrapper-title__subtitle">
+                <div class="circle"></div>
+                <p>PROFESSIONAL PEOPLE</p>
+                <div class="circle"></div>
+              </div>
+              <h2>Our Leadership Team</h2>
+              <div class="team__wrapper-title__text">
+                We have experience working with large and small businessesand
+                are ready to develop a targeted strategy and plan that’s right
+                for you
+              </div>
+            </div>
+            <div class="team__wrapper-main">
+              <div class="team__wrapper-main__card">
+                <div class="img">
+                  <img src="src/assets/img/person1.png" alt="" />
+                </div>
+                <div class="team__wrapper-main__card-info">
+                  <div class="team__wrapper-main__card-info__name">
+                    Ikotun Adejuigbe Emmanuel
+                  </div>
+                  <div class="team__wrapper-main__card-info__position">
+                    CEO/MD
+                  </div>
+                  <button
+                    class="team__wrapper-main__card-info__button"
+                    data-img="src/assets/img/person1.png"
+                    data-name="Ikotun Adejuigbe Emmanuel"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-plus-icon lucide-plus"
+                    >
+                      <path d="M5 12h14" />
+                      <path d="M12 5v14" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div class="team__wrapper-main__card">
+                <div class="img">
+                  <img src="src/assets/img/person2.png" alt="" />
+                </div>
+                <div class="team__wrapper-main__card-info">
+                  <div class="team__wrapper-main__card-info__name">
+                    Famodimu Olusegun
+                  </div>
+                  <div class="team__wrapper-main__card-info__position">CFO</div>
+                  <button
+                    class="team__wrapper-main__card-info__button"
+                    data-img="src/assets/img/person2.png"
+                    data-name="Famodimu Olusegun"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-plus-icon lucide-plus"
+                    >
+                      <path d="M5 12h14" />
+                      <path d="M12 5v14" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div class="team__wrapper-main__card">
+                <div class="img">
+                  <img src="src/assets/img/person3.png" alt="" />
+                </div>
+                <div class="team__wrapper-main__card-info">
+                  <div class="team__wrapper-main__card-info__name">
+                    Blessing Ehizojie- Philips
+                  </div>
+                  <div class="team__wrapper-main__card-info__position">
+                    Project Manager
+                  </div>
+                  <button
+                    class="team__wrapper-main__card-info__button"
+                    data-img="src/assets/img/person3.png"
+                    data-name=" Blessing Ehizojie- Philips"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-plus-icon lucide-plus"
+                    >
+                      <path d="M5 12h14" />
+                      <path d="M12 5v14" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div class="team__wrapper-main__card">
+                <div class="img">
+                  <img src="src/assets/img/person4.png" alt="" />
+                </div>
+                <div class="team__wrapper-main__card-info">
+                  <div class="team__wrapper-main__card-info__name">
+                    Nanle Luke Precious
+                  </div>
+                  <div class="team__wrapper-main__card-info__position">CTO</div>
+                  <button
+                    class="team__wrapper-main__card-info__button"
+                    data-img="src/assets/img/person4.png"
+                    data-name="Nanle Luke Precious"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-plus-icon lucide-plus"
+                    >
+                      <path d="M5 12h14" />
+                      <path d="M12 5v14" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__wrapper-about">
+            <p>About Us</p>
+            <div class="footer__wrapper-about__socials">
+              <img src="src/assets/icons/twit.svg" alt="" />
+              <img src="src/assets/icons/facebook.svg" alt="" />
+              <img src="src/assets/icons/instagram.svg" alt="" />
+              <img src="src/assets/icons/in.svg" alt="" />
+            </div>
+          </div>
+          <div class="footer__wrapper-links">
+            <div class="footer__wrapper-links__item">
+              <p class="footer__wrapper-links__item-title">Contact Us</p>
+              <div class="footer__wrapper-links__item-wrapper">
+                <div class="footer__wrapper-links__item-wrapper__info">
+                  <span> Address </span>: Global Plaza, Jabi. Abuja. Nigeria
+                </div>
+                <div class="footer__wrapper-links__item-wrapper__info">
+                  <span> Phone </span>
+                </div>
+                <div class="footer__wrapper-links__item-wrapper__info">
+                  <span> Email </span>: spatiuminnovation@gmail.com
+                </div>
+              </div>
+            </div>
+            <div class="footer__wrapper-links__item">
+              <p class="footer__wrapper-links__item-title">Serivces</p>
+              <div class="footer__wrapper-links__item-wrapper">
+                <a href="" class="footer__wrapper-links__item-wrapper__info">
+                  Software Development
+                </a>
+                <a href="" class="footer__wrapper-links__item-wrapper__info">
+                  Identity Management & Verification
+                </a>
+                <a href="" class="footer__wrapper-links__item-wrapper__info">
+                  IT Consulting & Advisory Services
+                </a>
+                <a href="" class="footer__wrapper-links__item-wrapper__info">
+                  UI/UX Design
+                </a>
+              </div>
+            </div>
+            <div class="footer__wrapper-links__item">
+              <p class="footer__wrapper-links__item-title">Quicklinks</p>
+              <div class="footer__wrapper-links__item-wrapper">
+                <a href="" class="footer__wrapper-links__item-wrapper__info">
+                  Careers
+                </a>
+                <a href="" class="footer__wrapper-links__item-wrapper__info">
+                  Resources
+                </a>
+                <a href="" class="footer__wrapper-links__item-wrapper__info">
+                  Products
+                </a>
+                <a href="" class="footer__wrapper-links__item-wrapper__info">
+                  Blog
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        Copyright 2020. Spatium Innovation Hub. All Rights Reserved
+      </div>
+    </footer>
+  </body>
+</html>
