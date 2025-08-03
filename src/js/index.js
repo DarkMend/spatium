@@ -1,4 +1,7 @@
 import person1 from "./../assets/img/person1.png";
+import person2 from "./../assets/img/person2.png";
+import person3 from "./../assets/img/person3.png";
+import person4 from "./../assets/img/person4.png";
 
 const dropdown = () => {
   const dropdownLists = document.querySelectorAll(".dropdown");
@@ -36,6 +39,29 @@ const toggleBurger = () => {
 };
 
 const modal = () => {
+  const data = [
+    {
+      id: 1,
+      name: "Ikotun Adejuigbe Emmanuel",
+      img: person1,
+    },
+    {
+      id: 2,
+      name: "Famodimu Olusegun",
+      img: person2,
+    },
+    {
+      id: 3,
+      name: "Blessing Ehizojie-Philips",
+      img: person3,
+    },
+    {
+      id: 4,
+      name: "Nanle Luke Precious",
+      img: person4,
+    },
+  ];
+
   const modal = document.querySelector(".modal");
   const openButtons = document.querySelectorAll(
     ".team__wrapper-main__card-info__button"
@@ -55,11 +81,12 @@ const modal = () => {
   openButtons.forEach((button) => {
     const img = modal.querySelector(".modal__img img");
     const name = modal.querySelector(".modal__name");
+    const dataPerson = data.find((el) => el.id === parseInt(button.dataset.id));
 
     button.addEventListener("click", () => {
       modal.classList.add("active");
-      img.src = person1;
-      name.textContent = button.dataset.name;
+      img.src = dataPerson.img;
+      name.textContent = dataPerson.name;
     });
   });
 };
