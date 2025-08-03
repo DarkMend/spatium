@@ -563,7 +563,7 @@ footer {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 18px;
-    border: 0.3px solid rgba(255, 255, 255, 1);
+    border-top: 0.3px solid rgba(255, 255, 255, 1);
     color: white;
     font-weight: 300;
     font-size: 18px;
@@ -671,6 +671,7 @@ footer {
     background: none;
     outline: none;
     border: none;
+    cursor: pointer;
   }
 
   &__img {
